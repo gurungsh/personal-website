@@ -20,3 +20,39 @@
 .App-link {
   color: #09d3ac;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+.App>span{
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+#about{
+  height: 100vh;
+}
+
+#resume, #projects{
+  padding-top: 60px;
+  
+}
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align:center;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+}
+
+h2{
+  text-align: left;
+  padding: 30px 0px 0px 10px;
+  text-decoration: underline;
+  font-weight: bold;
+}

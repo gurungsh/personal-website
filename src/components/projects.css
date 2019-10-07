@@ -1,0 +1,28 @@
+.projects-container{
+    margin: 10px 100px;
+}
+
+.col-lg-4{
+    margin: 20px 0;
+}
+
+.btn-primary{
+    margin-right: 20px;
+}
+
+.btn-repo{
+    color: #bf472e;
+    background-color: white;
+    border-color: #bf472e;
+}
+
+.btn-repo:hover{
+    color: white;
+    background-color: #bf472e;
+}
+
+@media(max-width:800px){
+    .projects-container{
+        margin: 0px 10px;
+    }
+}

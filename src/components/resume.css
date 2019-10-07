@@ -1,0 +1,37 @@
+
+.resume-container{
+    margin: 10px 100px;
+    text-align: left;
+}
+
+.resume-tile{
+    text-align: left;
+    padding: 10px;
+}
+.resume-heading, .resume-date{
+    font-weight: bold;
+}
+
+.resume-subheading{
+    font-style: italic;
+}
+
+.resume-content{
+    margin-top: 10px;
+}
+
+.resume-education > div:nth-of-type(even),
+.resume-work > div:nth-of-type(even) {
+    background: #e0e0e0;
+}
+
+.resume-education, 
+.resume-work{
+    border-bottom: 5px solid #bf472e;
+}
+@media(max-width:800px){
+    .resume-container{
+        margin: 0px 10px;
+    }
+}
+
